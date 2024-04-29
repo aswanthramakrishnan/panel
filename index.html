@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CBT Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>CBT Admin Panel</h1>
+        <a href="#" class="logout-btn">Log Out</a>
+    </header>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Exam Management</a>
+                <div class="dropdown-content">
+                    <a href="#" data-page="create_exam">Create Exam</a>
+                    <a href="#" data-page="edit_exam">Edit Exam</a>
+                    <a href="#" data-page="delete_exam">Delete Exam</a>
+                    <a href="#" data-page="view_exam_results">View Exam Results</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" data-page="live_dashboard">Live Dashboard</a>
+                
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Question Bank</a>
+                <div class="dropdown-content">
+                    <a href="#" data-page="create_exam">Create Exam</a>
+                    <a href="#" data-page="edit_exam">Edit Exam</a>
+                    <a href="#" data-page="delete_exam">Delete Exam</a>
+                    
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">User Management</a>
+                <div class="dropdown-content">
+                
+                    <a href="#" data-page="time_updates">Time Updates</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Candidate Data</a>
+                <div class="dropdown-content">
+                    <a href="#" data-page="register_candidate">Register Candidate</a>
+                    <a href="#" data-page="bulk_candidate_register">Bulk Candidate Register</a>
+                    <a href="#" data-page="delete_candidate">Delete Candidate</a>
+                    
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Reports and Analytics</a>
+                <div class="dropdown-content">
+                    <a href="#" data-page="view_exam_results">View Exam Results</a>
+                </div>
+            </li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Admin and Faculty Registration</a>
+                <div class="dropdown-content">
+                    <a href="#" data-page="admin_registration">Admin Registrations</a>
+                    <a href="#" data-page="faculty_registration">Faculty Registration</a>
+                    
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <section id="main-content">
+        <!-- Content of each section goes here -->
+    </section>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>Maestro Red Online Smart Hub @ 2024 Copyright</p>
+    </footer>
 </body>
 </html>
