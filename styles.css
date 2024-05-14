@@ -419,3 +419,75 @@ button:hover {
     color: red;
 }
 /* time updates */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.application-number {
+    margin-bottom: 10px;
+}
+
+.application-number label {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.application-number input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.timer-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-box {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.time-box input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.time-box .minutes {
+    color: #000; /* Set the color to black */
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content p {
+    color: #666;
+}

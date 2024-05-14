@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Updates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>CBT Website</h1>
+        <div class="application-number">
+            <label for="applicationNumber">Application Number:</label>
+            <input type="text" id="applicationNumber">
+        </div>
+        <div class="timer-control">
+            <div class="time-box">
+                <input type="number" id="inputTime" min="0" step="1" value="30" onchange="updateTimer()">
+                <span class="minutes">Minutes</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <h2>Welcome to the CBT Website</h2>
+        <p>This is a Computer Based Testing (CBT) website where you can adjust the timer according to your preference.</p>
+        <p>You can input the time you want in minutes using the input box above.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
